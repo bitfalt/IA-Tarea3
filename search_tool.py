@@ -1,161 +1,70 @@
+from langchain.tools import BaseTool
+from typing import Type
+from pydantic import BaseModel, Field
 import wikipedia
-from typing import List, Optional
-from dataclasses import dataclass
 
-@dataclass
-class WikiResult:
-    """Resultado de búsqueda en Wikipedia"""
-    title: str
-    summary: str
-    url: str
+class WikipediaSearchInput(BaseModel):
+    """Input para la herramienta Wikipedia"""
+    query: str = Field(description="Término a buscar en Wikipedia")
+    max_results: int = Field(default=3, description="Número máximo de resultados")
 
-class WikipediaSearchTool:
-    """Herramienta simple para buscar en Wikipedia"""
+class WikipediaSearchTool(BaseTool):
+    """Herramienta para buscar en Wikipedia"""
+    
+    name: str = "wikipedia_search"
+    description: str = """
+    Busca información general en Wikipedia.
+    Útil para obtener información adicional sobre:
+    - Conceptos generales de IA no cubiertos en clase
+    - Definiciones de términos técnicos
+    - Información histórica o contextual
+    - Biografías de investigadores famosos
+    Solo usar cuando se solicite explícitamente buscar información externa.
+    """
+    args_schema: Type[BaseModel] = WikipediaSearchInput
     
     def __init__(self, language: str = "es"):
-        """
-        Inicializar herramienta de Wikipedia
-        
-        Args:
-            language: Idioma para las búsquedas ("es" para español, "en" para inglés)
-        """
+        super().__init__()
         wikipedia.set_lang(language)
-        self.language = language
-        print(f"Wikipedia Search Tool initialized (Language: {language})")
     
-    def search(self, query: str, max_results: int = 3) -> List[WikiResult]:
-        """
-        Busca en Wikipedia
-        
-        Args:
-            query: Término de búsqueda
-            max_results: Número máximo de resultados
-            
-        Returns:
-            Lista de WikiResult
-        """
+    def _run(self, query: str, max_results: int = 3) -> str:
+        """Ejecuta la búsqueda en Wikipedia"""
         try:
-            print(f"Searching Wikipedia for: '{query}'")
-            
-            # Buscar páginas relacionadas
+            # Buscar páginas
             search_results = wikipedia.search(query, results=max_results)
             
             if not search_results:
-                return []
+                return "No se encontraron resultados en Wikipedia."
             
-            results = []
-            for title in search_results:
+            formatted_results = "**Información de Wikipedia:**\n\n"
+            
+            for i, title in enumerate(search_results, 1):
                 try:
-                    # Obtener resumen de la página
-                    summary = wikipedia.summary(title, sentences=3)
+                    summary = wikipedia.summary(title, sentences=2)
                     page = wikipedia.page(title)
                     
-                    result = WikiResult(
-                        title=title,
-                        summary=summary,
-                        url=page.url
-                    )
-                    results.append(result)
+                    formatted_results += f"**{i}. {title}**\n"
+                    formatted_results += f"Resumen: {summary}\n"
+                    formatted_results += f"Leer más: {page.url}\n\n"
                     
                 except wikipedia.exceptions.DisambiguationError as e:
-                    # Si hay ambigüedad, tomar la primera opción
+                    # Tomar la primera opción si hay ambigüedad
                     try:
-                        summary = wikipedia.summary(e.options[0], sentences=3)
+                        summary = wikipedia.summary(e.options[0], sentences=2)
                         page = wikipedia.page(e.options[0])
-                        result = WikiResult(
-                            title=e.options[0],
-                            summary=summary,
-                            url=page.url
-                        )
-                        results.append(result)
+                        formatted_results += f"**{i}. {e.options[0]}**\n"
+                        formatted_results += f"Resumen: {summary}\n"
+                        formatted_results += f"Leer más: {page.url}\n\n"
                     except:
                         continue
-                        
-                except wikipedia.exceptions.PageError:
-                    # Página no encontrada, continuar
-                    continue
                 except:
-                    # Cualquier otro error, continuar
                     continue
             
-            return results
+            return formatted_results
             
         except Exception as e:
-            print(f"Error searching Wikipedia: {e}")
-            return []
+            return f"Error al buscar en Wikipedia: {str(e)}"
     
-    def get_page_content(self, title: str, sentences: int = 5) -> Optional[str]:
-        """
-        Obtiene el contenido completo de una página específica
-        
-        Args:
-            title: Título de la página
-            sentences: Número de oraciones del resumen
-            
-        Returns:
-            Contenido de la página o None si no se encuentra
-        """
-        try:
-            return wikipedia.summary(title, sentences=sentences)
-        except:
-            return None
-    
-    def format_results(self, results: List[WikiResult]) -> str:
-        """Formatea los resultados para mostrar"""
-        if not results:
-            return "No se encontraron resultados en Wikipedia."
-        
-        formatted = "**Resultados de Wikipedia:**\n\n"
-        
-        for i, result in enumerate(results, 1):
-            formatted += f"**{i}. {result.title}**\n"
-            formatted += f"{result.summary}\n"
-            formatted += f"[Ver más...]({result.url})\n\n"        
-        return formatted
-    
-    def search_ai_topics(self, query: str) -> List[WikiResult]:
-        """Búsqueda específica para temas de IA"""
-        ai_terms = [
-            f"{query} inteligencia artificial",
-            f"{query} machine learning",
-            f"{query} aprendizaje automático"
-        ]
-        
-        all_results = []
-        for term in ai_terms:
-            results = self.search(term, max_results=2)
-            all_results.extend(results)
-        
-        # Eliminar duplicados por título
-        unique_results = []
-        seen_titles = set()
-        for result in all_results:
-            if result.title not in seen_titles:
-                unique_results.append(result)
-                seen_titles.add(result.title)
-        
-        return unique_results[:5]  # Máximo 5 resultados únicos
-
-def test_wikipedia_search():
-    """Función para probar la herramienta"""
-    # Probar en español
-    wiki_es = WikipediaSearchTool("es")
-    
-    test_queries = [
-        "inteligencia artificial",
-        "redes neuronales",
-        "machine learning",
-        "OpenAI"
-    ]
-    
-    for query in test_queries:
-        print(f"\n{'='*50}")
-        print(f"Probando: {query}")
-        print('='*50)
-        
-        results = wiki_es.search(query, max_results=2)
-        formatted = wiki_es.format_results(results)
-        print(formatted)
-
-if __name__ == "__main__":
-    test_wikipedia_search()
+    async def _arun(self, query: str, max_results: int = 3) -> str:
+        """Versión asíncrona"""
+        return self._run(query, max_results)
