@@ -1,127 +1,137 @@
 {
   "manual_metadata": {
-    "4_SEMANA_AI_250313_2.pdf": {
-      "autor": "Kenneth Chacón",
-      "semana": 4,
-      "fecha": "2025-03-13"
+    "1_SEMANA_AI_250220_2.pdf": {
+      "autor": "Yessenia Solano Retana",
+      "semana": 1,
+      "fecha": "2025-02-20"
     },
-    "11_Semana_AI_250506_1.pdf": {
-      "autor": "Jose Carlos Umaña Rivera",
-      "semana": 11,
-      "fecha": "2025-05-06"
+    "1_Semana_AI_250220_1.pdf": {
+      "autor": "José Ignacio Calderón Díaz",
+      "semana": 1,
+      "fecha": "2025-02-20"
     },
-    "14_Semana_AI_250527_3.pdf": {
-      "autor": "Victoria Sandí Barrantes",
-      "semana": 14,
-      "fecha": "2025-05-27"
+    "3_SEMANA_AI_250304_1.pdf": {
+      "autor": "Jeremy Chacón Backford",
+      "semana": 3,
+      "fecha": "2025-03-04"
     },
-    "7_Semana_AI_250403_2.pdf": {
-      "autor": "Deylan Sandoval Sanchez",
-      "semana": 7,
-      "fecha": "2025-04-03"
+    "3_SEMANA_AI_250304_2.pdf": {
+      "autor": "Raúl Sanabria Marroquín",
+      "semana": 3,
+      "fecha": "2025-03-04"
     },
-    "13_Semana_AI_250520_2.pdf": {
-      "autor": "Brandon Adones Calderon Cubero",
-      "semana": 13,
-      "fecha": "2025-05-20"
+    "3_SEMANA_AI_250306_1.pdf": {
+      "autor": "Tomás Granados Preciado",
+      "semana": 3,
+      "fecha": "2025-03-06"
     },
     "3_Semana_AI_20250306_2.pdf": {
       "autor": "Brandon Adones Calderon Cubero",
       "semana": 3,
       "fecha": "2025-03-06"
     },
-    "6_Semana_AI_250325_2.pdf": {
-      "autor": "Victoria Sandí Barrantes",
-      "semana": 6,
-      "fecha": "2025-03-25"
-    },
-    "8_Semana_AI_250408_2.pdf": {
-      "autor": "Jose Carlos Umaña Rivera",
-      "semana": 8,
-      "fecha": "2025-04-08"
-    },
-    "11_Semana_AI_250508_1.pdf": {
-      "autor": "Deylan Sandoval Sanchez",
-      "semana": 11,
-      "fecha": "2025-05-08"
-    },
-    "8_Semana_AI_250408_3.pdf": {
-      "autor": "Dillan Almendares Barrantes",
-      "semana": 8,
-      "fecha": "2025-04-08"
-    },
-    "11_SEMANA_AI_250506_2.pdf": {
-      "autor": "José Pablo Granados Siles",
-      "semana": 11,
-      "fecha": "2025-05-06"
+    "4_SEMANA_AI_250311_1.pdf": {
+      "autor": "Marco Rivera Serrano",
+      "semana": 4,
+      "fecha": "2025-03-11"
     },
     "4_Semana_AI_250311_2.pdf": {
       "autor": "Sebastián Vargas Mesén",
       "semana": 4,
       "fecha": "2025-03-11"
     },
-    "14_Semana_AI_250527_2.pdf": {
-      "autor": "Luis Carlos Solano",
-      "semana": 14,
-      "fecha": "2025-05-27"
+    "4_SEMANA_AI_250313_1.pdf": {
+      "autor": "José Pablo Granados Siles",
+      "semana": 4,
+      "fecha": "2025-03-13"
     },
-    "14_Semana_AI_250527_1.pdf": {
+    "4_SEMANA_AI_250313_2.pdf": {
+      "autor": "Kenneth Chacón",
+      "semana": 4,
+      "fecha": "2025-03-13"
+    },
+    "5_Semana_AI_250318_1.pdf": {
       "autor": "John Sánchez C.",
-      "semana": 14,
-      "fecha": "2025-05-27"
+      "semana": 5,
+      "fecha": "2025-03-18"
     },
-    "7_Semana_AI_250403_3.pdf": {
-      "autor": "Steven Pérez Machado",
-      "semana": 7,
-      "fecha": "2025-04-03"
-    },
-    "13_Semana_AI_250522_1.pdf": {
-      "autor": "Manuel Alejandro Rodríguez Murillo",
-      "semana": 13,
-      "fecha": "2025-05-22"
-    },
-    "13_Semana_AI_250520_3.pdf": {
-      "autor": "Sebastián Vargas Mesén",
-      "semana": 13,
-      "fecha": "2025-05-20"
-    },
-    "13_Semana_AI_250520_1.pdf": {
-      "autor": "José Pablo Barquero",
-      "semana": 13,
-      "fecha": "2025-05-20"
-    },
-    "13_Semana_AI_250522_3.pdf": {
-      "autor": "Pamela González",
-      "semana": 13,
-      "fecha": "2025-05-22"
-    },
-    "13_Semana_AI_250522_2.pdf": {
-      "autor": "Joselyn Montero Rodríguez",
-      "semana": 13,
-      "fecha": "2025-05-22"
+    "5_Semana_AI_250318_2.pdf": {
+      "autor": "Luis Carlos N. Todd",
+      "semana": 5,
+      "fecha": "2025-03-18"
     },
     "5_Semana_AI_250320_1.pdf": {
       "autor": "Pérez Picado Esteban",
       "semana": 5,
       "fecha": "2025-03-20"
     },
-    "1_SEMANA_AI_250220_2.pdf": {
-      "autor": "Luis Carlos Solano Retana",
-      "semana": 1,
-      "fecha": "2025-02-20"
-    },
     "5_Semana_AI_250320_2.pdf": {
       "autor": "Manuel Alejandro Rodríguez Murillo",
       "semana": 5,
       "fecha": "2025-03-20"
     },
-    "1_Semana_AI_250220_1.pdf": {
-      "autor": "José Ignacio Calderón",
-      "semana": 1,
-      "fecha": "2025-02-20"
+    "6_Semana_AI_250325_2.pdf": {
+      "autor": "Victoria Sandí Barrantes",
+      "semana": 6,
+      "fecha": "2025-03-25"
+    },
+    "6_Semana_IA_250325.pdf": {
+      "autor": "Mariana Fernández Martínez",
+      "semana": 6,
+      "fecha": "2025-03-25"
+    },
+    "6_Semana_AI_250327_1.pdf": {
+      "autor": "Joselyn Montero Rodríguez",
+      "semana": 6,
+      "fecha": "2025-03-27"
+    },
+    "6_Semana_AI_250327_2.pdf": {
+      "autor": "Pamela González López",
+      "semana": 6,
+      "fecha": "2025-03-27"
+    },
+    "7_Semana_AI_250401_2.pdf": {
+      "autor": "Alvaro Vargas",
+      "semana": 7,
+      "fecha": "2025-04-01"
+    },
+    "7_Semana_AI_250403_1.pdf": {
+      "autor": "Diana Sanabria Calvo",
+      "semana": 7,
+      "fecha": "2025-04-03"
+    },
+    "7_Semana_AI_250403_2.pdf": {
+      "autor": "Deylan Sandoval Sanchez",
+      "semana": 7,
+      "fecha": "2025-04-03"
+    },
+    "7_Semana_AI_250403_3.pdf": {
+      "autor": "Steven Pérez Machado",
+      "semana": 7,
+      "fecha": "2025-04-03"
+    },
+    "8_Semana_AI_250408_1.pdf": {
+      "autor": "Andrés Martínez Vargas",
+      "semana": 8,
+      "fecha": "2025-04-08"
+    },
+    "8_Semana_AI_250408_2.pdf": {
+      "autor": "Jose Carlos Umaña Rivera",
+      "semana": 8,
+      "fecha": "2025-04-08"
+    },
+    "8_Semana_AI_250408_3.pdf": {
+      "autor": "Dillan Almendares Barrantes",
+      "semana": 8,
+      "fecha": "2025-04-08"
     },
     "8_Semana_AI_250410_1.pdf": {
-      "autor": "José Pablo Barquero",
+      "autor": "José Pablo Barquero Díaz",
+      "semana": 8,
+      "fecha": "2025-04-10"
+    },
+    "8_Semana_AI_250410_2.pdf": {
+      "autor": "Rayforth Brenes Rodríguez",
       "semana": 8,
       "fecha": "2025-04-10"
     },
@@ -130,95 +140,130 @@
       "semana": 8,
       "fecha": "2025-04-10"
     },
+    "9_Semana_AI_250424_1.pdf": {
+      "autor": "Marco Rivera Serrano",
+      "semana": 9,
+      "fecha": "2025-04-24"
+    },
+    "10_Semana_AI_250424_2.pdf": {
+      "autor": "Israel Hererra Campos",
+      "semana": 10,
+      "fecha": "2025-04-24"
+    },
     "10_SEMANA_AI_250429_1.pdf": {
       "autor": "Raúl Sanabria Marroquín",
       "semana": 10,
       "fecha": "2025-04-29"
+    },
+    "10_Semana_AI_250429_2.pdf": {
+      "autor": "José Ignacio Calderón Díaz",
+      "semana": 10,
+      "fecha": "2025-04-29"
+    },
+    "11_Semana_AI_250506_1.pdf": {
+      "autor": "Jose Carlos Umaña Rivera",
+      "semana": 11,
+      "fecha": "2025-05-06"
     },
     "11_Semana_250506_3.pdf": {
       "autor": "Tomás Granados Preciado",
       "semana": 11,
       "fecha": "2025-05-06"
     },
-    "6_Semana_AI_250327_1.pdf": {
-      "autor": "Joselyn Montero Rodríguez",
-      "semana": 6,
-      "fecha": "2025-03-27"
+    "11_SEMANA_AI_250506_2.pdf": {
+      "autor": "José Pablo Granados Siles",
+      "semana": 11,
+      "fecha": "2025-05-06"
     },
-    "14_SEMANA_AI_250529_1.pdf": {
-      "autor": "Jeremy Chacón",
-      "semana": 14,
-      "fecha": "2025-05-29"
-    },
-    "10_Semana_AI_250429_2.pdf": {
-      "autor": "José Ignacio Calderón",
-      "semana": 10,
-      "fecha": "2025-04-29"
-    },
-    "6_Semana_AI_250327_2.pdf": {
-      "autor": "Pamela González",
-      "semana": 6,
-      "fecha": "2025-03-27"
-    },
-    "5_Semana_AI_250318_1.pdf": {
-      "autor": "John Sánchez C.",
-      "semana": 5,
-      "fecha": "2025-03-18"
-    },
-    "15_Semana_Al_250603_2.pdf": {
-      "autor": "Rayforth Brenes Rodríguez",
-      "semana": 15,
-      "fecha": "2025-06-03"
-    },
-    "3_SEMANA_AI_250304_1.pdf": {
-      "autor": "Jeremy Chacón",
-      "semana": 3,
-      "fecha": "2025-03-04"
-    },
-    "15_Semana_Al_250603_3.pdf": {
-      "autor": "Kenneth Chacón",
-      "semana": 15,
-      "fecha": "2025-06-03"
-    },
-    "8_Semana_AI_250408_1.pdf": {
-      "autor": "Andrés Martínez Vargas",
-      "semana": 8,
-      "fecha": "2025-04-08"
-    },
-    "6_Semana_IA_250325.pdf": {
-      "autor": "Mariana Fernández",
-      "semana": 6,
-      "fecha": "2025-03-25"
-    },
-    "5_Semana_AI_250318_2.pdf": {
-      "autor": "Luis Carlos Solano",
-      "semana": 5,
-      "fecha": "2025-03-18"
-    },
-    "11_SEMANA_AI_250508_3.pdf": {
-      "autor": "Steven Pérez Machado",
+    "11_Semana_AI_250508_1.pdf": {
+      "autor": "Deylan Sandoval Sanchez",
       "semana": 11,
       "fecha": "2025-05-08"
-    },
-    "3_SEMANA_AI_250306_1.pdf": {
-      "autor": "Tomás Granados Preciado",
-      "semana": 3,
-      "fecha": "2025-03-06"
-    },
-    "14_Semana_IA_250529_2.pdf": {
-      "autor": "Mariana Fernández",
-      "semana": 14,
-      "fecha": "2025-05-29"
     },
     "11_SEMANA_AI_250508_2.pdf": {
       "autor": "Yessenia Solano Retana",
       "semana": 11,
       "fecha": "2025-05-08"
     },
-    "3_SEMANA_AI_250304_2.pdf": {
-      "autor": "Raúl Sanabria Marroquín",
-      "semana": 3,
-      "fecha": "2025-03-04"
+    "11_SEMANA_AI_250508_3.pdf": {
+      "autor": "Steven Pérez Machado",
+      "semana": 11,
+      "fecha": "2025-05-08"
+    },
+    "13_Semana_AI_250520_1.pdf": {
+      "autor": "José Pablo Barquero Díaz",
+      "semana": 13,
+      "fecha": "2025-05-20"
+    },
+    "13_Semana_AI_250520_2.pdf": {
+      "autor": "Brandon Adones Calderon Cubero",
+      "semana": 13,
+      "fecha": "2025-05-20"
+    },
+    "13_Semana_AI_250520_3.pdf": {
+      "autor": "Sebastián Vargas Mesén",
+      "semana": 13,
+      "fecha": "2025-05-20"
+    },
+    "13_Semana_AI_250522_1.pdf": {
+      "autor": "Manuel Alejandro Rodríguez Murillo",
+      "semana": 13,
+      "fecha": "2025-05-22"
+    },
+    "13_Semana_AI_250522_2.pdf": {
+      "autor": "Joselyn Montero Rodríguez",
+      "semana": 13,
+      "fecha": "2025-05-22"
+    },
+    "13_Semana_AI_250522_3.pdf": {
+      "autor": "Pamela González López",
+      "semana": 13,
+      "fecha": "2025-05-22"
+    },
+    "14_Semana_AI_250527_1.pdf": {
+      "autor": "John Sánchez C.",
+      "semana": 14,
+      "fecha": "2025-05-27"
+    },
+    "14_Semana_AI_250527_2.pdf": {
+      "autor": "Luis Carlos N. Todd",
+      "semana": 14,
+      "fecha": "2025-05-27"
+    },
+    "14_Semana_AI_250527_3.pdf": {
+      "autor": "Victoria Sandí Barrantes",
+      "semana": 14,
+      "fecha": "2025-05-27"
+    },
+    "14_SEMANA_AI_250529_1.pdf": {
+      "autor": "Jeremy Chacón Backford",
+      "semana": 14,
+      "fecha": "2025-05-29"
+    },
+    "14_Semana_IA_250529_2.pdf": {
+      "autor": "Mariana Fernández Martínez",
+      "semana": 14,
+      "fecha": "2025-05-29"
+    },
+    "14_Semana_AI_250529_3.pdf": {
+      "autor": "Diana Sanabria Calvo",
+      "semana": 14,
+      "fecha": "2025-05-29"
+    },
+    "15_Semana_AI_250603_1.pdf": {
+      "autor": "Daniel Alonso Garbanzo Carvajal",
+      "semana": 15,
+      "fecha": "2025-06-03"
+    },
+    "15_Semana_Al_250603_2.pdf": {
+      "autor": "Rayforth Brenes Rodríguez",
+      "semana": 15,
+      "fecha": "2025-06-03"
+    },
+    "15_Semana_Al_250603_3.pdf": {
+      "autor": "Kenneth Chacón",
+      "semana": 15,
+      "fecha": "2025-06-03"
     }
   }
 }
