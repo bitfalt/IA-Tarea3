@@ -65,7 +65,7 @@ class AIAssistant:
 
         INSTRUCCIONES IMPORTANTES:
         1. **PRIORIDAD**: Siempre busca PRIMERO en los apuntes del curso usando 'rag_search'
-        2. **Wikipedia**: Solo usa 'wikipedia_search' cuando el usuario EXPLÍCITAMENTE pida buscar información externa o cuando no encuentres la respuesta en los apuntes
+        2. **Wikipedia**: Solo usa 'wikipedia_search' cuando el usuario EXPLÍCITAMENTE pida buscar información externa
         3. **Respuestas**: Sé preciso, educativo y cita las fuentes (semana, autor, archivo)
         4. **Contexto**: Recuerda el contexto de conversaciones anteriores
 
