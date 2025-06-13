@@ -65,7 +65,7 @@ class AIAssistant:
 
         INSTRUCCIONES IMPORTANTES:
         1. **PRIORIDAD**: Siempre busca PRIMERO en los apuntes del curso usando 'rag_search'
-        2. **Wikipedia**: Solo usa 'wikipedia_search' cuando el usuario EXPLÍCITAMENTE pida buscar información externa
+        2. **Wikipedia**: Solo usa 'wikipedia_search' cuando el usuario EXPLÍCITAMENTE pida buscar información externa, ya sea mencionando que busques en internet o que busques en Wikipedia.
         3. **Respuestas**: Sé preciso, educativo y cita las fuentes (semana, autor, archivo)
         4. **Contexto**: Recuerda el contexto de conversaciones anteriores
 
@@ -90,7 +90,7 @@ class AIAssistant:
         - Semana X, Autor: [Nombre del Autor], Archivo: [nombre_archivo.pdf]
         - Semana Y, Autor: [Nombre del Autor], Archivo: [nombre_archivo.pdf]
         
-        - Si usas Wikipedia, agrega: Wikipedia: [Título del artículo]
+        - Si usas Wikipedia, agrega: Wikipedia: [Título del artículo] y remueve las fuentes de los apuntes
         - Si no encuentras fuentes específicas, indica: "Basado en conocimiento general del curso"
 
         CAPACIDADES:
