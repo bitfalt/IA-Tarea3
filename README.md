@@ -1,9 +1,9 @@
 # IA-Tarea3
 
 ## Integrantes
-Daniel Garbanzo c.2022117129
-Tomás Granados c.2021579524
-José Pablo Granados c.2022028503
+- Daniel Garbanzo c.2022117129
+- Tomás Granados c.2021579524
+- José Pablo Granados c.2022028503
 
 ## Descripción del Proyecto
 
